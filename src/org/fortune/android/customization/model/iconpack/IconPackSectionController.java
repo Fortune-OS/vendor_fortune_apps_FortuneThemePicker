@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package co.aospa.android.customization.model.iconpack;
+package org.fortune.android.customization.model.iconpack;
 
 import android.content.Context;
 import android.util.Log;
@@ -34,8 +34,8 @@ import com.android.wallpaper.R;
 import com.android.wallpaper.model.CustomizationSectionController;
 import com.android.wallpaper.util.LaunchUtils;
 
-import co.aospa.android.customization.picker.iconpack.IconPackFragment;
-import co.aospa.android.customization.picker.iconpack.IconPackSectionView;
+import org.fortune.android.customization.picker.iconpack.IconPackFragment;
+import org.fortune.android.customization.picker.iconpack.IconPackSectionView;
 
 import java.util.List;
 

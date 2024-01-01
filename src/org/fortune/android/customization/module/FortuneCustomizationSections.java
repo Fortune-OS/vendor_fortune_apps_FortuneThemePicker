@@ -1,4 +1,4 @@
-package co.aospa.android.customization.module;
+package org.fortune.android.customization.module;
 
 import android.app.WallpaperManager;
 import android.os.Bundle;
@@ -44,16 +44,16 @@ import com.android.wallpaper.picker.customization.ui.section.WallpaperQuickSwitc
 import com.android.wallpaper.picker.customization.ui.viewmodel.CustomizationPickerViewModel;
 import com.android.wallpaper.util.DisplayUtils;
 
-import co.aospa.android.customization.model.font.FontManager;
-import co.aospa.android.customization.model.font.FontSectionController;
-import co.aospa.android.customization.model.iconpack.IconPackManager;
-import co.aospa.android.customization.model.iconpack.IconPackSectionController;
+import org.fortune.android.customization.model.font.FontManager;
+import org.fortune.android.customization.model.font.FontSectionController;
+import org.fortune.android.customization.model.iconpack.IconPackManager;
+import org.fortune.android.customization.model.iconpack.IconPackSectionController;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /** {@link CustomizationSections} for the customization picker. */
-public final class AospaCustomizationSections implements CustomizationSections {
+public final class FortuneCustomizationSections implements CustomizationSections {
 
     private final ColorPickerViewModel.Factory mColorPickerViewModelFactory;
     private final KeyguardQuickAffordancePickerInteractor mKeyguardQuickAffordancePickerInteractor;
@@ -68,7 +68,7 @@ public final class AospaCustomizationSections implements CustomizationSections {
     private final ThemedIconInteractor mThemedIconInteractor;
     private final ColorPickerInteractor mColorPickerInteractor;
 
-    public AospaCustomizationSections(
+    public FortuneCustomizationSections(
             ColorPickerViewModel.Factory colorPickerViewModelFactory,
             KeyguardQuickAffordancePickerInteractor keyguardQuickAffordancePickerInteractor,
             KeyguardQuickAffordancePickerViewModel.Factory

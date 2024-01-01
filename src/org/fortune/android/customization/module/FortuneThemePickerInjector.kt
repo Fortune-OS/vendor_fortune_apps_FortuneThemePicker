@@ -1,4 +1,4 @@
-package co.aospa.android.customization.module
+package org.fortune.android.customization.module
 
 import android.app.Activity
 
@@ -26,7 +26,7 @@ import com.android.customization.model.themedicon.domain.interactor.ThemedIconSn
 import com.android.customization.module.ThemePickerInjector
 
 @Singleton
-open class AospaThemePickerInjector @Inject constructor(
+open class FortuneThemePickerInjector @Inject constructor(
     @MainDispatcher mainScope: CoroutineScope,
     @MainDispatcher mainDispatcher: CoroutineDispatcher,
     @BackgroundDispatcher bgDispatcher: CoroutineDispatcher,
@@ -41,7 +41,7 @@ open class AospaThemePickerInjector @Inject constructor(
     override fun getCustomizationSections(activity: ComponentActivity): CustomizationSections {
     val wallpaperColorsViewModel = getWallpaperColorsViewModel()
         return customizationSections
-            ?: AospaCustomizationSections(
+            ?: FortuneCustomizationSections(
                     getColorPickerViewModelFactory(
                         context = activity,
                     wallpaperColorsViewModel = wallpaperColorsViewModel,
